@@ -8,7 +8,7 @@ from scipy.signal import butter,filtfilt
 from scipy import fftpack
 
 # Specify the directory path
-directory = '/Users/asharma/Library/CloudStorage/OneDrive-HewlettPackardEnterprise/codes/C_Code/currTests/LSMS/fept_16/power_mi250/1_atom_per_gpu/lmax_14_liz_6'
+directory = ''
 logs = Path(directory + '/logs')
 pdf_pages = PdfPages(directory + '/power_' + Path(directory).name + '.pdf')
 
