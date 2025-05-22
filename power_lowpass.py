@@ -12,9 +12,9 @@ def butter_lowpass_filter(data, cutoff, order):
     return y
 
 # Specify the directory path
-directory = Path('/Users/asharma/Library/CloudStorage/OneDrive-HewlettPackardEnterprise/codes/C_Code/currTests/LSMS/fept_16/power_mi250/logs')
+directory = Path('')
 power_pattern = r"(\S+)\s+(\w+)\s+(\d+)\s+(\w+)\s+(\d+)\s+(\w+)"
-pdf_pages = PdfPages('/Users/asharma/Library/CloudStorage/OneDrive-HewlettPackardEnterprise/codes/C_Code/currTests/LSMS/fept_16/power_mi250/power_plots.pdf')
+pdf_pages = PdfPages('')
 
 for file_path in directory.iterdir():
     # Check if the file starts with "frontier"
